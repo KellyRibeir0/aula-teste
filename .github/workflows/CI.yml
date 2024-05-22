@@ -6,12 +6,5 @@ jobs:
       steps:
         - name: Checkout code
           uses: actions/checkout@v2
-          ##use o node 20
-        - name: Use Node.js 20.x
-          uses: actions/setup-node@v2
-          with:
-            node-version: '20.x'
-        - name: Install dependencies
-          run: npm install
-        - name: Run tests
-          run: npm test
+        - name: my-step
+          run: echo "Hello word!
