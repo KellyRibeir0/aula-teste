@@ -7,4 +7,4 @@ jobs:
         - name: Checkout code
           uses: actions/checkout@v2
         - name: my-step
-          run: echo "Hello word!
+          run: echo "Hello word!"
